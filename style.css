@@ -1,0 +1,112 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  background-color:#EACDD0;
+  font-family:'Montserrat', sans-serif;
+  color:#000000;
+  font-size:18px;
+  line-height:1.6;
+}
+
+h1, h2, h3 {
+  font-family:'Montserrat', sans-serif;
+  color:#000000;
+}
+
+h1 {
+  font-size:30px;
+  line-height:1.6;
+  font-weight: 900;
+}
+
+h2 {
+  font-size:20px;
+  line-height:1.6;
+  font-weight: 500;
+}
+
+h3 {
+  font-size:30px;
+  line-height:1.6;
+  font-weight: 700;
+}
+
+p {
+  font-size:14px;
+  line-height:1.6;
+  font-weight: 400;
+  text-align: center;
+  border: 1px solid #CA705F;
+  padding: 50px;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: underline;
+  color: #DC9787;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover {
+  background-color: #CA705F;
+}
+
+.button {
+  background-color: #DC9787;
+  color: white;
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.container {
+  width: 1000px;
+  margin: 50px auto;
+}
+
+.background-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 2px 2px
+  #CA705F;
+  border-radius: 10px;
+  margin:30px 0px;
+  text-align: center;
+  margin-top:20px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.icons{
+  font-size: 50px;
+}
+
+.border{
+  border: 1px #;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
